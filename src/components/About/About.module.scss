@@ -1,0 +1,35 @@
+.avatar {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  margin-top: 10px;
+}
+.colored {
+  color: #08f;
+  margin: 20px 0 0 0;
+  font-size: 17px;
+}
+.flexRow {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .leftColumn,
+  .rightColumn {
+    max-width: 350px;
+  }
+}
+ul {
+  padding-left: 15px;
+  margin: 0;
+  li {
+    margin: 5px 0;
+    a {
+      color: #08f;
+    }
+  }
+}
